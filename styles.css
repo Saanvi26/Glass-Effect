@@ -1,0 +1,157 @@
+body {
+    background: url("https://images2.alphacoders.com/947/947319.jpg");
+    background-size: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+
+
+}
+
+/* GLASS EFFECT */
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 79%;
+    height: fit-content;
+    margin: 200px auto;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.box1,
+.box2,
+.box3 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px black;
+    width: 33%;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.card1,
+.card2,
+.card3 {
+    transition-duration: 0.6s;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 12%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px black;
+    height: 22vh;
+}
+
+.info {
+    transition-duration: 0.6s;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 8%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px black;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.links {
+    transition-duration: 0.6s;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 12%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px black;
+    height: 20vh;
+}
+
+.links:hover {
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+    border-radius: 30%;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+}
+
+.card3:hover {
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+}
+
+.info:hover {
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+}
+
+.txt {
+    color: white;
+    z-index: 2;
+}
+
+img {
+    transition-duration: 0.7s;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: 2px white solid;
+    margin-top: 8%;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.part {
+    border-radius: 15px;
+    height: 55vh;
+    margin-top: 12%;
+    margin-right: 12%;
+    margin-left: 12%;
+    transition-duration: 0.6s;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.part:hover {
+    transform: scale(1.1);
+    transition-duration: 0.6s;
+}
